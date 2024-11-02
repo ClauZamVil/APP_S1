@@ -18,16 +18,19 @@
   <ion-card class="login-card">
     <ion-card-header>
       <ion-card-title class="login-title">
-        Bienvenidos
+        HappyPet
       </ion-card-title>
     </ion-card-header>
     
   <ion-card-content>
+    <div class="logo-container-logo">
+      <img class="logo animate__bounceIn" src="../../assets/img/logo.png">
+    </div>
     <ion-item class="input-item">
         <ion-label position="floating" color="primary">
           Email
         </ion-label>
-        <ion-input type="email"></ion-input>
+        <ion-input [(ngModel)]="email" type="email"></ion-input>
     </ion-item>
 
 
@@ -35,10 +38,10 @@
       <ion-label position="floating" color="primary">
         Password
       </ion-label>
-      <ion-input type="password"></ion-input>
+      <ion-input [(ngModel)]="password" type="password"></ion-input>
     </ion-item>
 
-    <ion-button expand="block" class="login-button">
+    <ion-button expand="block" (click)="login()" class="login-button">
       Login
     </ion-button>
 
