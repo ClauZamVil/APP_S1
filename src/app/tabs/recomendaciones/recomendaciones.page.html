@@ -1,0 +1,69 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>recomendaciones</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">recomendaciones</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Recomendaciones para Mascotas</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <ion-label>
+          <h2>Consejos de Cuidado</h2>
+        </ion-label>
+      </ion-item>
+  
+      <ion-accordion>
+        <ion-item slot="header">
+          <ion-label>
+            Cuidado de Perros
+          </ion-label>
+        </ion-item>
+        <ion-content>
+          <p>1. Asegúrate de pasear a tu perro diariamente.</p>
+          <p>2. Mantén su espacio limpio y cómodo.</p>
+          <p>3. Ofrece una dieta balanceada y agua fresca siempre.</p>
+        </ion-content>
+      </ion-accordion>
+  
+      <ion-accordion>
+        <ion-item slot="header">
+          <ion-label>
+            Cuidado de Gatos
+          </ion-label>
+        </ion-item>
+        <ion-content>
+          <p>1. Proporciona una caja de arena limpia.</p>
+          <p>2. Mantén sus garras recortadas.</p>
+          <p>3. Juega con ellos regularmente para mantenerlos activos.</p>
+        </ion-content>
+      </ion-accordion>
+  
+      <ion-accordion>
+        <ion-item slot="header">
+          <ion-label>
+            Cuidado de Aves
+          </ion-label>
+        </ion-item>
+        <ion-content>
+          <p>1. Proporciona una jaula espaciosa y limpia.</p>
+          <p>2. Ofrece una dieta variada con semillas y frutas.</p>
+          <p>3. Deja que disfruten de tiempo fuera de la jaula bajo supervisión.</p>
+        </ion-content>
+      </ion-accordion>
+    </ion-list>
+  
+    
+  </ion-content>
+</ion-content>

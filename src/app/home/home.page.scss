@@ -28,14 +28,15 @@
 
  /* Estilos para el ion-list */
  .custom-list {
-  background-color: #f0f8ff; /* Color de fondo azul claro */
+  background-color: #f8c06b; /* Color de fondo azul claro */
   padding: 10px;
-  border-radius: 8px;
+  font-size: 20px;
+  
 }
 
 .custom-list-header {
-  background-color: #007acc; /* Color de fondo azul oscuro */
-  color: white;
+
+  color:grey;
   font-weight: bold;
   padding: 10px;
 }
@@ -60,7 +61,6 @@
 }
 
 .custom-card-header {
-  background-color: #ffd700; /* Fondo dorado */
   color: black;
   text-align: center;
   font-weight: bold;
@@ -70,3 +70,4 @@
   color: #333;
   font-size: 16px;
 }
+
