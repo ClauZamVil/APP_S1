@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <app-company-name [companyName]="'HappyPet'"></app-company-name>
+   <ion-button slot="end">
+      <ion-menu-button menu="mainMenu"></ion-menu-button>
+   </ion-button>
+  
+  </ion-toolbar>
+</ion-header>
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Perritos Randoms</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="dog-container" *ngIf="dogImage">
+    <img [src]="dogImage" alt="Random Dog" class="dog-image" />
+  </div>
+  <ion-button expand="full" (click)="loadNewDogImage()">Revisa otro perrito </ion-button>
+</ion-content>

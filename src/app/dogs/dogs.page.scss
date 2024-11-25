@@ -1,0 +1,12 @@
+dog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; // Ajusta el tamaño si es necesario
+}
+
+.dog-image {
+  width: auto;
+  max-width: 100%; // Asegúrate de que la imagen no sobrepase el contenedor
+  height: auto; // Mantiene la proporción
+}
